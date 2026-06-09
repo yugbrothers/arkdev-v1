@@ -8,14 +8,14 @@ const ProCardMobile = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="pro-mobile-bar"
-      aria-label="Get React Bits Pro"
+      aria-label="Get ArkDev Pro"
     >
       <span className="pro-mobile-bar-badge">
         <LuSparkles size={11} />
         NEW
       </span>
       <span className="pro-mobile-bar-text">
-        <strong>React Bits Pro</strong>
+        <strong>ArkDev Pro</strong>
         <span className="pro-mobile-bar-sub">Components, blocks, templates</span>
       </span>
       <span className="pro-mobile-bar-cta">

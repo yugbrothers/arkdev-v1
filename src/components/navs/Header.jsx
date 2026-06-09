@@ -31,7 +31,7 @@ import { useSearch } from '../context/SearchContext/useSearch';
 import { useOptions } from '../context/OptionsContext/useOptions';
 import FadeContent from '../../content/Animations/FadeContent/FadeContent';
 
-import Logo from '../../assets/logos/react-bits-logo.svg';
+import Logo from '../../assets/logos/arkdev-logo.svg';
 import Star from '../../assets/common/star.svg';
 import jsIcon from '../../assets/icons/js.svg';
 import tsIcon from '../../assets/icons/ts.svg';
@@ -379,8 +379,8 @@ const MobileDrawer = ({ isOpen, onClose }) => (
               <RouterLink to={GITHUB_URL} target="_blank" onClick={onClose} style={{ color: colors.accentMuted }}>
                 GitHub <Icon boxSize={4} as={ArrowRight} transform="rotate(-45deg)" />
               </RouterLink>
-              <RouterLink to="https://x.com/davidhdev" target="_blank" onClick={onClose} style={{ color: colors.accentMuted }}>
-                Who made this? <Icon boxSize={4} as={ArrowRight} transform="rotate(-45deg)" />
+              <RouterLink to="https://github.com/arkdev" target="_blank" onClick={onClose} style={{ color: colors.accentMuted }}>
+                ArkDev <Icon boxSize={4} as={ArrowRight} transform="rotate(-45deg)" />
               </RouterLink>
             </Flex>
           </Flex>

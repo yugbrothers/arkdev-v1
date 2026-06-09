@@ -48,7 +48,7 @@ const LandingPage = () => {
     <>
       {!loaded && <LandingLoader hiding={hiding} />}
       <section className={`landing-wrapper no-side-fades${loaded ? ' ln-loaded' : ' ln-loading'}`}>
-        <title>React Bits - Animated UI Components For React</title>
+        <title>ArkDev - Animated UI Components For React</title>
 
         <Navbar />
         <Hero />

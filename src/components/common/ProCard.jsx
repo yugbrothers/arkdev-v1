@@ -101,7 +101,7 @@ const ProCard = () => {
         <div className="pro-card-glow" />
         <div className="pro-card-content">
           <span className="pro-card-badge">PRO</span>
-          <h3 className="pro-card-title">Get React Bits Pro</h3>
+          <h3 className="pro-card-title">Get ArkDev Pro</h3>
           <p className="pro-card-desc">
             100+ components, 158+ blocks &amp; 8+ templates to ship memorable products faster.
           </p>

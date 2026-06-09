@@ -112,7 +112,9 @@ const Navbar = ({ showDocs }) => {
       <div className="ln-navbar-inner">
         <div className="ln-navbar-left">
           <Link to="/" className="ln-navbar-logo">
-            <Logo />
+            <span style={{fontSize:"22px",fontWeight:700}}>
+              ArkDev
+            </span>
           </Link>
 
           <span className="ln-navbar-divider">/</span>

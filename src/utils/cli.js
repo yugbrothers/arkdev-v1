@@ -23,7 +23,7 @@ export const generateCliCommands = (language, style, category, subcategory, depe
   const baseUrl = 'https://reactbits.dev';
 
   const jsrepoUrl = `${baseUrl}/r/${componentName}-${shadcnVariant}`;
-  const shadcnUrl = `@react-bits/${componentName}-${shadcnVariant}`;
+  const shadcnUrl = `@knowme/${componentName}-${shadcnVariant}`;
 
   const prefixCommands = {
     pnpm: 'pnpm dlx',

@@ -71,7 +71,7 @@ const CrosshairDemo = () => {
                 fontWeight={900}
                 fontSize={{ base: '2rem', md: '4rem' }}
                 as="a"
-                href="https://github.com/DavidHDev/react-bits"
+                href="https://github.com/arkdev"
                 ref={linkRef}
                 onMouseEnter={() => {
                   setLinkText('Locked');

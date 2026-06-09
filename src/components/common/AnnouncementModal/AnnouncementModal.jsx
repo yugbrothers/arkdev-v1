@@ -150,7 +150,7 @@ const AnnouncementModal = () => {
               <div className="announcement-modal-image">
                 <img
                   src={PROMO_IMAGE}
-                  alt="React Bits Pro Spring Sale - 30% off with code SPRING30"
+                  alt="ArkDev Pro Spring Sale - 30% off with code SPRING30"
                   loading="lazy"
                 />
               </div>
@@ -165,7 +165,7 @@ const AnnouncementModal = () => {
                 </p>
 
                 <p id="announcement-modal-description" className="announcement-modal-description">
-                  Save 30% on React Bits Pro with code <strong>SPRING30</strong>
+                  Save 30% on ArkDev Pro with code <strong>SPRING30</strong>
                 </p>
 
                 <a

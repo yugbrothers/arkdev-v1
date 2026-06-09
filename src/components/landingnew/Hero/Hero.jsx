@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import DotField from './DotField';
-import HeroBand from './HeroBand';
 import { FaArrowRight } from 'react-icons/fa6';
 import { LuRotateCcw } from 'react-icons/lu';
 import './Hero.css';
@@ -487,14 +486,38 @@ const Hero = () => {
   return (
     <section className="ln-hero">
       <DotField {...propValues[1]} gradientFrom={dotGradientFrom} gradientTo={dotGradientTo} />
-      <HeroBand
-        className="ln-hero-band"
-        {...propValues[0]}
-        scale={1}
-        warpStrength={1}
-        yOffset={0.3}
-        mouseInfluence={0.3}
-      />
+      
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          overflow: "hidden",
+          zIndex: 0
+        }}
+      >
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover"
+          }}
+        >
+          <source src="/bikeark.mp4" type="video/mp4" />
+        </video>
+
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "rgba(0,0,0,0.45)"
+          }}
+        />
+      </div>
+    
       <svg className="ln-hero-bottom-fade" preserveAspectRatio="none" viewBox="0 0 1 1">
         <defs>
           <linearGradient id="hero-bottom-fade" x1="0" y1="0" x2="0" y2="1">

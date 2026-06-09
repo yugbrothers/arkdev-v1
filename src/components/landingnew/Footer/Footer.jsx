@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { AiFillHeart } from 'react-icons/ai';
-import ReactBitsLogo from '../../../assets/logos/react-bits-logo.svg';
+import ArkDevLogo from '../../../assets/logos/arkdev-logo.svg';
 import './Footer.css';
 
 const Footer = () => (
@@ -19,7 +19,7 @@ const Footer = () => (
     >
       <div className="ln-footer-top">
         <div className="ln-footer-brand">
-          <img src={ReactBitsLogo} alt="React Bits" className="ln-footer-logo" />
+          <img src={ArkDevLogo} alt="ArkDev" className="ln-footer-logo" />
           <p className="ln-footer-tagline">
             Animated UI components for React.
           </p>
@@ -35,7 +35,7 @@ const Footer = () => (
 
           <div className="ln-footer-col">
             <span className="ln-footer-col-title">Community</span>
-            <a href="https://github.com/DavidHDev/react-bits" target="_blank" rel="noopener noreferrer" className="ln-footer-link">
+            <a href="https://github.com/arkdev" target="_blank" rel="noopener noreferrer" className="ln-footer-link">
               GitHub
             </a>
             <a href="https://vue-bits.dev/" target="_blank" rel="noopener noreferrer" className="ln-footer-link">
@@ -50,12 +50,9 @@ const Footer = () => (
 
       <div className="ln-footer-bottom">
         <p className="ln-footer-attribution">
-          Created with <AiFillHeart className="ln-footer-heart" /> by{' '}
-          <a href="https://x.com/davidhdev" target="_blank" rel="noopener noreferrer" className="ln-footer-creator">
-            davidhdev
-          </a>
+          Created with <AiFillHeart className="ln-footer-heart" /> by ArkDev
         </p>
-        <p className="ln-footer-copy">© {new Date().getFullYear()} React Bits</p>
+        <p className="ln-footer-copy">© {new Date().getFullYear()} ArkDev</p>
       </div>
     </motion.div>
   </footer>

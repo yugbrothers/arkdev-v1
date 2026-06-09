@@ -89,7 +89,7 @@ const CliSteps = () => (
     <p className="docs-paragraph dim">Use a one-time command to pull any component directly into your project.</p>
 
     <p className="docs-paragraph">
-      React Bits supports two CLI installation methods:{' '}
+      ArkDev supports two CLI installation methods:{' '}
       <a style={{ textDecoration: 'underline' }} href="https://ui.shadcn.com/" target="_blank" rel="noreferrer">
         shadcn
       </a>{' '}

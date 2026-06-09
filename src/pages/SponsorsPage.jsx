@@ -45,14 +45,14 @@ const SponsorsPage = () => {
         <DotField sparkle waveAmplitude={5} dotRadius={2} />
       </div>
       <section className="sponsors-page">
-        <title>React Bits - Sponsors</title>
+        <title>ArkDev - Sponsors</title>
 
         {/* ── Header ──────────────────────────────────────────────── */}
         <div className="sponsors-page-header">
           <div className="sponsors-page-header-left">
             <h1 className="sponsors-page-title">Sponsors</h1>
             <p className="sponsors-page-subtitle">
-              Your support keeps React Bits free and open-source for developers everywhere.
+              Your support keeps ArkDev free and open-source for developers everywhere.
             </p>
           </div>
           <a
