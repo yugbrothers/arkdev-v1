@@ -187,17 +187,19 @@ const Navbar = ({ showDocs }) => {
                 Back to Ark
               </a>
               <a
-                href="https://pro.reactbits.dev"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className="ln-navbar-pro"
+                onClick={(e) => {
+                  e.preventDefault();
+                  alert("🚀 Coming Soon");
+                }}
                 onMouseMove={e => {
                   const rect = e.currentTarget.getBoundingClientRect();
                   const x = ((e.clientX - rect.left) / rect.width) * 100;
                   e.currentTarget.style.setProperty('--pro-mx', `${x}%`);
                 }}
               >
-                COMING SOON
+                GET PRO
               </a>
               <span className="ln-navbar-browse">
                 COMMUNITY <span className="ln-navbar-soon">SOON</span>
