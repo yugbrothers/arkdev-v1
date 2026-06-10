@@ -9,7 +9,7 @@ import PreviewSlider from '../../components/common/Preview/PreviewSlider';
 import CodeExample from '../../components/code/CodeExample';
 
 import PropTable from '../../components/common/Preview/PropTable';
-import logo from '../../assets/logos/knowme-sticker.png';
+import logo from '../../assets/logos/react-bits-sticker.png';
 import Dependencies from '../../components/code/Dependencies';
 
 import StickerPeel from '../../content/Animations/StickerPeel/StickerPeel';

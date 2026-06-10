@@ -181,6 +181,12 @@ const Navbar = ({ showDocs }) => {
           {!showDocs && (
             <>
               <a
+                href="http://127.0.0.1:8002/ark/index.html"
+                className="ln-navbar-back-ark"
+              >
+                Back to Ark
+              </a>
+              <a
                 href="https://pro.reactbits.dev"
                 target="_blank"
                 rel="noopener noreferrer"
